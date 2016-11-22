@@ -1,0 +1,121 @@
+21-11-2016 15:23:25 INFO  BasicInfoController:126 - Initialize Application
+21-11-2016 15:23:52 INFO  CalibrationResultController:103 - New Calibration Result Panel
+21-11-2016 15:23:58 INFO  CalibrationResultController:138 - Selecting pdf Folder
+21-11-2016 15:24:09 INFO  UtilCertificate:36 - Path Template: D:\WorkspacePersonal\TempCal\CertificateTemplate.docx
+21-11-2016 15:24:09 INFO  UtilCertificate:37 - Path Archivo: D:\WorkspacePersonal\TempCal\temp\CertificateMachine45645432234.docx
+21-11-2016 15:24:12 INFO  UtilCertificate:137 - Path Pdf: D:\CertificateMachine45645432234.pdf
+21-11-2016 18:10:10 INFO  BasicInfoController:126 - Initialize Application
+21-11-2016 18:11:17 INFO  TemperatureInfoController:114 - Hora Actual: 06:11:17
+21-11-2016 18:18:36 INFO  CalibrationResultController:106 - New Calibration Result Panel
+21-11-2016 18:18:36 INFO  CalibrationResultController:137 - Hora Actual: 06:18:36
+21-11-2016 18:24:27 INFO  BasicInfoController:126 - Initialize Application
+21-11-2016 18:24:45 INFO  TemperatureInfoController:114 - Hora Actual: 06:24:45
+21-11-2016 18:27:36 INFO  CalibrationResultController:106 - New Calibration Result Panel
+21-11-2016 18:27:36 INFO  CalibrationResultController:137 - Hora Actual: 27:36
+21-11-2016 18:28:50 INFO  BasicInfoController:126 - Initialize Application
+21-11-2016 18:29:00 INFO  TemperatureInfoController:114 - Hora Actual: 06:29:00
+21-11-2016 18:31:33 INFO  CalibrationResultController:106 - New Calibration Result Panel
+21-11-2016 18:31:33 INFO  CalibrationResultController:137 - Hora Actual: 31:33
+21-11-2016 19:28:47 INFO  BasicInfoController:126 - Initialize Application
+21-11-2016 19:29:25 INFO  TemperatureInfoController:114 - Hora Actual: 07:29:25
+22-11-2016 07:30:40 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 07:30:57 INFO  TemperatureInfoController:114 - Hora Actual: 07:30:57
+22-11-2016 07:33:11 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 07:33:39 INFO  TemperatureInfoController:114 - Hora Actual: 07:33:39
+22-11-2016 07:35:45 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 07:36:05 INFO  TemperatureInfoController:114 - Hora Actual: 07:36:05
+22-11-2016 07:54:52 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 07:55:18 INFO  TemperatureInfoController:114 - Hora Actual: 07:55:18
+22-11-2016 08:19:24 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 08:19:41 INFO  TemperatureInfoController:120 - Hora Actual: 08:19:41
+22-11-2016 08:20:59 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 08:21:09 INFO  TemperatureInfoController:120 - Hora Actual: 08:21:09
+22-11-2016 08:21:18 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 08:21:28 INFO  TemperatureInfoController:120 - Hora Actual: 08:21:28
+22-11-2016 08:24:31 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 08:24:41 INFO  TemperatureInfoController:120 - Hora Actual: 08:24:41
+22-11-2016 08:29:33 INFO  BasicInfoController:126 - Initialize Application
+22-11-2016 08:29:46 INFO  TemperatureInfoController:120 - Hora Actual: 08:29:46
+22-11-2016 09:24:27 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:24:45 INFO  TemperatureInfoController:132 - Hora Actual: 09:24:45
+22-11-2016 09:26:18 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:26:31 INFO  TemperatureInfoController:131 - Hora Actual: 09:26:31
+22-11-2016 09:33:18 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:33:20 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:33:42 INFO  TemperatureInfoController:142 - Hora Actual: 09:33:42
+22-11-2016 09:34:05 INFO  TemperatureInfoController:142 - Hora Actual: 09:34:05
+22-11-2016 09:37:37 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:37:46 INFO  TemperatureInfoController:142 - Hora Actual: 09:37:46
+22-11-2016 09:41:56 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:42:11 INFO  TemperatureInfoController:140 - Hora Actual: 09:42:11
+22-11-2016 09:42:50 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 09:42:55 INFO  CalibrationResultController:150 - Selecting pdf Folder
+22-11-2016 09:42:59 INFO  CalibrationResultController:160 - File Path Selected
+22-11-2016 09:43:01 INFO  CalibrationResultController:150 - Selecting pdf Folder
+22-11-2016 09:43:17 INFO  CalibrationResultController:160 - File Path Selected
+22-11-2016 09:43:17 INFO  CalibrationResultController:163 - Creating Certificate
+22-11-2016 09:43:17 INFO  UtilCertificate:32 - Path Template: D:\WorkspacePersonal\TempCal\CertificateTemplate.docx
+22-11-2016 09:43:17 INFO  UtilCertificate:38 - Path Archivo: D:\WorkspacePersonal\TempCal\temp\CertificateMachine123123.docx
+22-11-2016 09:58:26 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 09:58:39 INFO  TemperatureInfoController:141 - Hora Actual: 09:58:39
+22-11-2016 09:59:50 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:01:27 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:01:51 INFO  TemperatureInfoController:141 - Hora Actual: 10:01:51
+22-11-2016 10:02:23 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:05:55 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:06:08 INFO  TemperatureInfoController:141 - Hora Actual: 10:06:08
+22-11-2016 10:06:28 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:08:03 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:08:15 INFO  TemperatureInfoController:141 - Hora Actual: 10:08:15
+22-11-2016 10:08:28 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:15:21 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:15:32 INFO  TemperatureInfoController:141 - Hora Actual: 10:15:32
+22-11-2016 10:17:19 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:17:19 ERROR UtilHistory:81 - java.io.FileNotFoundException: D:\WorkspacePersonal\TempCal\history\CertificateTemplate.xlsx (El sistema no puede encontrar la ruta especificada)
+22-11-2016 10:23:06 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:23:20 INFO  TemperatureInfoController:141 - Hora Actual: 10:23:20
+22-11-2016 10:23:48 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:25:22 ERROR UtilHistory:78 - java.io.FileNotFoundException: D:\WorkspacePersonal\TempCal\history\CalibrationHistory.xlsx (El sistema no puede encontrar la ruta especificada)
+22-11-2016 10:27:39 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:27:54 INFO  TemperatureInfoController:141 - Hora Actual: 10:27:54
+22-11-2016 10:28:17 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:37:19 INFO  CalibrationResultController:150 - Selecting pdf Folder
+22-11-2016 10:37:21 INFO  CalibrationResultController:160 - File Path Selected
+22-11-2016 10:43:25 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:44:31 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:47:34 INFO  TemperatureInfoController:141 - Hora Actual: 10:47:34
+22-11-2016 10:48:01 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 10:50:12 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 10:50:24 INFO  TemperatureInfoController:141 - Hora Actual: 10:50:24
+22-11-2016 10:51:06 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:22:13 ERROR UtilHistory:126 - java.io.FileNotFoundException: CalibrationHistory.xlsx (El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso)
+22-11-2016 11:22:15 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:22:31 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:23:04 INFO  TemperatureInfoController:141 - Hora Actual: 11:23:04
+22-11-2016 11:23:22 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:28:38 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:28:48 INFO  TemperatureInfoController:141 - Hora Actual: 11:28:48
+22-11-2016 11:29:01 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:33:39 ERROR UtilHistory:132 - Cant Close the history File
+22-11-2016 11:33:46 ERROR UtilHistory:132 - Cant Close the history File
+22-11-2016 11:33:48 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:34:07 INFO  TemperatureInfoController:141 - Hora Actual: 11:34:07
+22-11-2016 11:34:41 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:34:41 ERROR UtilHistory:132 - Cant Close the history File
+22-11-2016 11:36:30 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:36:45 INFO  TemperatureInfoController:141 - Hora Actual: 11:36:45
+22-11-2016 11:37:08 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:42:17 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 11:42:32 INFO  TemperatureInfoController:146 - Hora Actual: 11:42:32
+22-11-2016 11:43:13 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 11:49:42 ERROR UtilHistory:132 - Cant Close the history File
+22-11-2016 11:49:47 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 14:32:29 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 14:32:47 INFO  TemperatureInfoController:146 - Hora Actual: 02:32:47
+22-11-2016 14:33:21 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 14:41:28 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 14:41:40 INFO  TemperatureInfoController:146 - Hora Actual: 02:41:40
+22-11-2016 14:42:29 INFO  CalibrationResultController:106 - New Calibration Result Panel
+22-11-2016 14:48:57 INFO  BasicInfoController:128 - Initialize Application
+22-11-2016 14:49:12 INFO  TemperatureInfoController:146 - Hora Actual: 02:49:12
+22-11-2016 14:49:29 INFO  CalibrationResultController:106 - New Calibration Result Panel
