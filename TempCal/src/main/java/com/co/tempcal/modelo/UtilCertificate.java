@@ -110,6 +110,38 @@ public class UtilCertificate {
 							texto = texto.replace("typecertificate", certificate.getCalibrationType());
 							run.setText(texto, 0);
 						}
+						if (texto.contains("calibratedby")) {
+							texto = texto.replace("calibratedby", calibration.getCalibrationPerson());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("coldbath")) {
+							texto = texto.replace("coldbath", calibration.getColdBathTemp1());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("hotbath")) {
+							texto = texto.replace("hotbath", calibration.getHotBathTemp());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("hotsensor")) {
+							texto = texto.replace("hotsensor", calibration.getHotSensorTemp());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("calculatedfactor")) {
+							texto = texto.replace("calculatedfactor", calibration.getHotSensorTemp2());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("testcold")) {
+							texto = texto.replace("testcold", calibration.getTestColdBathTemp());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("testsensor")) {
+							texto = texto.replace("testsensor", calibration.getTestColdSensorTemp());
+							run.setText(texto, 0);
+						}
+						if (texto.contains("processresult")) {
+							texto = texto.replace("processresult", calibration.getResultProcess());
+							run.setText(texto, 0);
+						}
 					}
 				}
 

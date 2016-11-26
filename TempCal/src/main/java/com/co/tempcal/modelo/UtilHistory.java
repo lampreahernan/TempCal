@@ -101,23 +101,26 @@ public class UtilHistory {
 	}
 
 	public static void createHistoryFile() throws IOException {
+		
+		
+		if(!new File("CalibrationHistory.xlsx").exists()) { 
+			XSSFWorkbook fileHistory = new XSSFWorkbook();
+			XSSFSheet historySheet = fileHistory.createSheet("Calibration History");
+			XSSFRow row;
 
-		XSSFWorkbook fileHistory = new XSSFWorkbook();
-		XSSFSheet historySheet = fileHistory.createSheet("Calibration History");
-		XSSFRow row;
+			Object[] headers = new Object[] { "CALIBRATION DATE", "TEMPERATURE TYPE", "CALIBRATION BY", "SERIAL",
+					"COLD BATH TEMP", "HOT UNCALIB SENSOR TEMP", "HOT BATH TEMP", "CALCULATE FACTOR", "TEST COLD BATH TEMP",
+					"TEST COLD SENSOR TEMP", "RESULT"};
 
-		Object[] headers = new Object[] { "CALIBRATION DATE", "TEMPERATURE TYPE", "CALIBRATION BY", "SERIAL",
-				"COLD BATH TEMP", "HOT UNCALIB SENSOR TEMP", "HOT BATH TEMP", "CALCULATE FACTOR", "TEST COLD BATH TEMP",
-				"TEST COLD SENSOR TEMP", "RESULT"};
+			row = historySheet.createRow(0);
+			int cellid = 0;
+			for (Object obj : headers) {
+				Cell cell = row.createCell(cellid++);
+				cell.setCellValue((String) obj);
+			}
 
-		row = historySheet.createRow(0);
-		int cellid = 0;
-		for (Object obj : headers) {
-			Cell cell = row.createCell(cellid++);
-			cell.setCellValue((String) obj);
+			closeHistoryFile(fileHistory);
 		}
-
-		closeHistoryFile(fileHistory);
 
 	}
 
