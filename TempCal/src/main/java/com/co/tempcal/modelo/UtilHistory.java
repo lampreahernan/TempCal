@@ -2,15 +2,9 @@ package com.co.tempcal.modelo;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -25,15 +19,6 @@ public class UtilHistory {
 	 */
 	private static final Logger LoggerHistory = LoggerFactory.getLogger(UtilHistory.class);
 
-	/**
-	 * 
-	 */
-	private static File file;
-
-	/**
-	 * 
-	 */
-	private static final int NUM_HEADERS = 12;
 
 	public static void saveHistory(CalibrationInformationDTO info) {
 		File file = new File("CalibrationHistory.xlsx");
@@ -94,6 +79,7 @@ public class UtilHistory {
 
 		} catch (IOException e) {
 			Validations.showErrorAlert("Can't save this process in the history, the file is open");
+			LoggerHistory.error(e.toString());
 		} catch (Exception e) {
 			LoggerHistory.error(e.toString());
 		}
@@ -101,8 +87,7 @@ public class UtilHistory {
 	}
 
 	public static void createHistoryFile() throws IOException {
-		
-		
+			
 		if(!new File("CalibrationHistory.xlsx").exists()) { 
 			XSSFWorkbook fileHistory = new XSSFWorkbook();
 			XSSFSheet historySheet = fileHistory.createSheet("Calibration History");

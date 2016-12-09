@@ -4,8 +4,14 @@ import com.co.tempcal.vista.BasicInfoController;
 
 public class TemperatureCalculations {
 	
+	/**
+	 * Error Range for Celcius 
+	 */
 	public final float ERROR_RANGE_CELCIUS = (float) 0.2;
 	
+	/**
+	 * Error Range for Fahrenheit
+	 */
 	public final float ERROR_RANGE_FAHRENHEIT = (float) 0.5;
 	
 	/**

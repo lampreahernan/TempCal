@@ -1,14 +1,12 @@
 package com.co.tempcal.vista;
 
 import java.util.Locale;
-import java.util.Timer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.co.tempcal.controlador.MainGUI;
 import com.co.tempcal.modelo.CertificateDTO;
-import com.co.tempcal.modelo.UtilTimer;
 import com.co.tempcal.modelo.Validations;
 import com.co.tempcal.modelo.CalibrationInformationDTO;
 
@@ -23,7 +21,10 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 public class BasicInfoController {
-
+	
+	/**
+	 * Logger
+	 */
 	private static final Logger LoggerBasic = LoggerFactory.getLogger(BasicInfoController.class);
 
 	public static final String CELSIUS = "CELSIUS";
@@ -113,12 +114,12 @@ public class BasicInfoController {
 	private CalibrationInformationDTO infoCalibration;
 
 	/**
-	 * DTO con la informacion del Certificado
+	 * DTO with certificate information
 	 */
 	private CertificateDTO infoCertificate;
 
 	/**
-	 * Referencia al Main Principal
+	 * Main Panel
 	 */
 	private MainGUI mainGUI;
 

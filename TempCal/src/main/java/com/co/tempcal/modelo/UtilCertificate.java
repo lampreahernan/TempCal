@@ -19,13 +19,30 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class UtilCertificate {
-
+	
+	/**
+	 * Logger
+	 */
 	private static final Logger LoggerUtil = LoggerFactory.getLogger(UtilCertificate.class);
-
+	
+	/**
+	 * Path to Certificate Template 
+	 */
 	public static final String FILE_PATH_SRC = new File("CertificateTemplate.docx").getAbsolutePath();
+	
+	/**
+	 * Path to temp folder where stored all the certificates
+	 */
 	public static final String FILE_PATH_DIR = new File("temp").getAbsolutePath();
-	public static final String FILE_PATH_PDF = new File("certificates").getAbsolutePath();
-
+	
+	
+	/**
+	 * Create the certificate for the calibration process
+	 * @param certificate CertificateDTO
+	 * @param calibration CalibrationInformationDTO
+	 * @param file File
+	 */
+	@SuppressWarnings("resource")
 	public static void createCertitificate(CertificateDTO certificate, CalibrationInformationDTO calibration,
 			File file) {
 
@@ -56,15 +73,13 @@ public class UtilCertificate {
 		}
 
 	}
-
+	
+	
 	private static void createFolders() throws IOException {
 		File path_dir = new File(FILE_PATH_DIR);
 		path_dir.mkdirs();
-
-		File path_pdf = new File(FILE_PATH_PDF);
-		path_pdf.mkdirs();
 	}
-
+	
 	private static XWPFDocument replaceText(XWPFDocument doc, CertificateDTO certificate,
 			CalibrationInformationDTO calibration) {
 
@@ -166,6 +181,14 @@ public class UtilCertificate {
 		}
 	}
 
+	/**
+	 * 
+	 * @param fileSource
+	 * @param fileDir
+	 * @throws FileNotFoundException
+	 * @throws IOException
+	 */
+	@SuppressWarnings("unused")
 	private static void createPDF(String fileSource, String fileDir) throws FileNotFoundException, IOException {
 
 		String filePath = fileSource;

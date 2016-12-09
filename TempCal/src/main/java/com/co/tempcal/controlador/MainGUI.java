@@ -3,12 +3,10 @@ package com.co.tempcal.controlador;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-import java.util.Timer;
 
 import com.co.tempcal.modelo.CalibrationInformationDTO;
 import com.co.tempcal.modelo.CertificateDTO;
 import com.co.tempcal.modelo.UtilHistory;
-import com.co.tempcal.modelo.UtilTimer;
 import com.co.tempcal.modelo.Validations;
 import com.co.tempcal.vista.BasicInfoController;
 import com.co.tempcal.vista.TemperatureInfoController;
@@ -27,7 +25,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-@SuppressWarnings("unused")
+
 public class MainGUI extends Application {
 
 	/**
@@ -39,7 +37,8 @@ public class MainGUI extends Application {
 	 * Main Panel
 	 */
 	private BorderPane pnlMain;
-
+	
+	@SuppressWarnings("unused")
 	@Override
 	public void start(Stage primaryStage) {
 		this.stgMainGUI = primaryStage;
@@ -84,19 +83,17 @@ public class MainGUI extends Application {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainGUI.class.getClassLoader().getResource("com/co/tempcal/vista/RootLayout.fxml"));
 			pnlMain = (BorderPane) loader.load();
-
+			
 			Scene scene = new Scene(pnlMain);
 			stgMainGUI.setScene(scene);
 			stgMainGUI.show();
+			
+			MainGUIController controller = loader.getController();
+			controller.setMainApp(this);
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-
-	public void closeStage() {
-		this.stgMainGUI.close();
-		System.exit(0);
 	}
 
 	/**
@@ -118,7 +115,7 @@ public class MainGUI extends Application {
 	}
 
 	/**
-	 * Lod the basic information panel
+	 * Load the basic information panel
 	 */
 	public void showBasicInformationPanel() {
 		try {
@@ -278,6 +275,11 @@ public class MainGUI extends Application {
 		}
 	}
 	
+	public void closeStage() {
+		this.stgMainGUI.close();
+		System.exit(0);
+	}
+
 
 	/**
 	 * return the main GUI

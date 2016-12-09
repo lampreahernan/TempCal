@@ -4,7 +4,7 @@ import com.co.tempcal.controlador.MainGUI;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.effect.Reflection;
+import javafx.scene.control.MenuItem;
 
 public class MainGUIController {
 
@@ -13,6 +13,9 @@ public class MainGUIController {
 
 	@FXML
 	private Button btnExit;
+	
+	@FXML
+	private MenuItem menuClose;
 	
 	/**
 	 * Referencia al Main Principal
@@ -42,7 +45,7 @@ public class MainGUIController {
 		mainVentana.closeStage();
 	}
 	
-	
+		
 	 /**
      * Is called by the main application to give a reference back to itself.
      * 
