@@ -5,37 +5,32 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="250.0" maxWidth="400.0" minHeight="250.0" minWidth="400.0" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.co.tempcal.vista.InformationTestController">
+<AnchorPane maxHeight="250.0" maxWidth="400.0" minHeight="250.0" minWidth="400.0" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.co.tempcal.vista.InformationTestController">
    <children>
-      <VBox layoutX="32.0" layoutY="110.0">
+      <Label layoutX="69.0" layoutY="112.0" text="Adjust span (R18) to Calculate Factor, then" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox layoutX="97.0" layoutY="132.0">
          <children>
-            <Label text="Adjust span to Calculate Factor at TBH then">
+            <Label text="adjust hot zero (R13) to equal " textAlignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <HBox>
-               <children>
-                  <Label text="Adjust by zero LCD to TBH ">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="lblCalculateFactor">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-               </children>
-            </HBox>
+            <Label fx:id="lblCalculateFactor">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
          </children>
-      </VBox>
+      </HBox>
       <HBox layoutX="32.0" layoutY="55.0">
          <children>
-            <Label prefHeight="17.0" prefWidth="119.0" text="Calculate Factor ">
+            <Label prefHeight="25.0" prefWidth="119.0" text="Calculate Factor ">
                <font>
                   <Font size="14.0" />
                </font>

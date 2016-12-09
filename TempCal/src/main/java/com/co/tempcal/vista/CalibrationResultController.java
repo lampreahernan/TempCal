@@ -154,7 +154,7 @@ public class CalibrationResultController {
 			fileChooser.setTitle("Save Certifcate");
 			FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Docx", "*.docx");
 			fileChooser.getExtensionFilters().add(extFilter);
-			fileChooser.setInitialFileName("CertificateMachine" + this.infoCertificate.getMachineModel());
+			fileChooser.setInitialFileName("Certificate" + this.infoCertificate.getCertificateNumber());
 			File certificateFile = fileChooser.showSaveDialog(this.dialogStage);
 			
 			LoggerResult.info("File Path Selected");

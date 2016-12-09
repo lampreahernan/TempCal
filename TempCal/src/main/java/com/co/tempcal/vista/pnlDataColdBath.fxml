@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="200.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.co.tempcal.vista.TemperatureInfoController">
    <children>
-      <Label layoutX="14.0" layoutY="28.0" text="Please put the Soak Sensor in the Cold Bath and wait while the temperature is stabilized" textAlignment="CENTER" textOverrun="CLIP">
+      <Label layoutX="53.0" layoutY="14.0" text="Soak sensor in the cold bath. When LCD is stable adjust cold zero (R13)" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -27,5 +27,10 @@
             <TextField fx:id="txtTimeElapsedColdBath" editable="false" prefHeight="25.0" prefWidth="50.0" />
          </children>
       </HBox>
+      <Label layoutX="188.0" layoutY="31.0" text="to equal bath temperature">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

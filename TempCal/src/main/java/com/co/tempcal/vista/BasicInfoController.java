@@ -139,6 +139,9 @@ public class BasicInfoController {
 		txtCalibrationPerson.addEventHandler(KeyEvent.KEY_RELEASED, changeUpperCase);
 		txtOwner.addEventHandler(KeyEvent.KEY_RELEASED, changeUpperCase);
 
+		txtMachineModel.setText("D-2401-2");
+		txtMachineModel.setEditable(false);
+
 	}
 
 	/**
@@ -175,15 +178,14 @@ public class BasicInfoController {
 
 			infoCertificate.setOwner(txtOwner.getText());
 			infoCertificate.setMachineModel(txtMachineModel.getText());
-			infoCertificate.setCertificateNumber(txtCertificateNumber.getText());
+			infoCertificate.setCertificateNumber("2706" + "-" + datePicker.getValue().toString().substring(2, 4)
+					+ "-" + cmbCalibrationType.getValue().substring(0, 1) + "-" + txtCertificateNumber.getText());
 			infoCertificate.setCalibratedDate(datePicker.getValue().toString());
 			infoCertificate.setCalibrationType(cmbCalibrationType.getValue());
 			infoCertificate.setTypeMachine(cmbMachineType.getValue());
 			infoCertificate.setSerialLength(txtSerialLength.getText());
-			
-			
-			mainGUI.showColdBathPanel(this.dialogStage, infoCalibration,
-					infoCertificate);
+
+			mainGUI.showColdBathPanel(this.dialogStage, infoCalibration, infoCertificate);
 
 		}
 	}

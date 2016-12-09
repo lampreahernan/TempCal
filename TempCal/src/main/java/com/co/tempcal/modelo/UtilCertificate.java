@@ -31,7 +31,7 @@ public class UtilCertificate {
 
 		LoggerUtil.info("Path Template: " + FILE_PATH_SRC);
 
-		String nombreArchivoTemp = FILE_PATH_DIR + "\\CertificateMachine" + certificate.getMachineModel() + ".docx";
+		String nombreArchivoTemp = FILE_PATH_DIR + "\\Certificate" + certificate.getCertificateNumber() + ".docx";
 		FileInputStream fs = null;
 		XWPFDocument doc = null;
 
@@ -82,8 +82,7 @@ public class UtilCertificate {
 							run.setText(texto, 0);
 						}
 						if (texto.contains("certificatenumber")) {
-							texto = texto.replace("certificatenumber", certificate.getCertificateNumber() + "-"
-									+ certificate.getCalibrationType().substring(0, 1));
+							texto = texto.replace("certificatenumber", certificate.getCertificateNumber());
 							run.setText(texto, 0);
 						}
 						if (texto.contains("typetemp")) {
@@ -106,8 +105,8 @@ public class UtilCertificate {
 							texto = texto.replace("length", certificate.getSerialLength());
 							run.setText(texto, 0);
 						}
-						if (texto.contains("typecertificate")) {
-							texto = texto.replace("typecertificate", certificate.getCalibrationType());
+						if (texto.contains("typemachine")) {
+							texto = texto.replace("typemachine", certificate.getTypeMachine());
 							run.setText(texto, 0);
 						}
 						if (texto.contains("calibratedby")) {
@@ -142,6 +141,11 @@ public class UtilCertificate {
 							texto = texto.replace("processresult", calibration.getResultProcess());
 							run.setText(texto, 0);
 						}
+						if (texto.contains("issuedate")) {
+							texto = texto.replace("issuedate", calibration.getCalibrationDate());
+							run.setText(texto, 0);
+						}
+						
 					}
 				}
 
